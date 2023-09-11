@@ -1,0 +1,355 @@
+body,h1,h2,h3,h4,h5,h6{
+    font-family: 'Work Sans', sans-serif;
+}
+
+.p-bg{
+    background: #f7f9ff;
+}
+img{
+    max-width: 100%;
+}
+
+/* Header Section */
+
+.main-header{
+
+}
+.main-header .navbar-brand{
+    font-size: 26px;
+    font-weight: 500;
+}
+.main-header span{
+    display: inline-block;
+    background: #6777db;
+    color: #fff;
+    height: 40px;
+    width: 40px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 26px;
+}
+.header-btn .h-btn{
+    font-size: 16px;
+    font-weight: 700;
+    border-color: #6b76d7 !important;
+}
+.header-menu .nav-link{
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+/*  Slider Section  */
+
+.slider-section{
+    background: url(img/asset\ 17.jpeg) no-repeat center center;
+    padding: 140px 0;
+    position: relative;
+    z-index: 1;
+}
+.slider-section::after{
+    content: "";
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: -1;
+}
+.slider-caption{
+
+}
+.slider-caption h4{
+    font-size: 26px;
+    font-weight: 300;
+    margin-bottom: 50px;
+}
+.slider-caption h2{
+    font-size: 45px;
+    font-weight: 500;
+    margin-bottom: 60px;
+}
+
+.slider-caption .btn{
+    background: #63a83d;
+    border-color: #63a83d;
+    font-size: 21px;
+    font-weight: 600;
+    padding: 15px 0;
+    
+}
+.slider-caption .form-box{
+    font-size: 21px;
+    font-weight: 300;
+    padding: 15px 0;
+}
+
+/*  Number Section  */
+
+.number-track{
+    margin-top: 80px;
+    margin-bottom: 60px;
+}
+
+.number-track-item{
+
+}
+
+.number-track-item .h1{
+    font-size: 58px;
+    font-weight: 500;
+}
+
+.number-track-item .text-muted{
+    font-size: 21px;
+    font-weight: 400;
+}
+
+/*  Blog Section  */
+
+.blog-section{
+
+}
+
+.blog-section h1{
+    margin-top: 150px;
+    font-size: 45px;
+    font-weight: 500;
+}
+
+.blog-section p{
+    margin-top: 30px;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 31px;
+}
+/*  About Section  */
+
+.about-section{
+
+}
+.about-head{
+    margin-top: 100px;
+}
+
+.about-head h1{
+    font-size: 45px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.about-head h4{
+    font-size: 26px;
+    font-weight: 300;
+    color: #767676;
+    margin-bottom: 100px;
+}
+
+.about-item{
+    height: 240px;
+    margin-bottom: 80px;
+    border-radius: 0 5px 5px 0;
+}
+
+
+
+.about-img-item{
+    width: 40%;
+    overflow: hidden;
+    border-radius: 5px 0 0 5px;
+}
+
+.about-img-item img{
+    height: 100%;
+    width: auto !important;
+    max-width: inherit;
+    position: relative;
+    left: -100px;
+}
+
+.about-text-item{
+    width: 60%;
+    padding: 30px;
+}
+
+.about-text-item h5{
+    margin-top: 20px;
+    font-weight: 500;
+    font-size: 21px;
+}
+
+.about-text-item p{
+    margin-top: 20px;
+    font-weight: 300;
+    font-size: 16px;
+}
+
+/*  Protfolio Section  */
+
+.protfolio-section{
+
+}
+
+.protfolio-text{
+
+}
+
+.protfolio-text h1{
+
+}
+
+.protfolio-item{
+
+}
+
+.protfolio-item a{
+    position: relative;
+    display: block;
+}
+
+.protfolio-item a::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(107, 118, 215,.7);
+    opacity: 0;
+    visibility: hidden;
+    transition: .4s;
+}
+
+.protfolio-item:hover a::after{
+    opacity: 1;
+    visibility: visible;
+}
+
+
+/*  Pricing Section  */
+
+.pricing-section{
+
+}
+
+.pricing-item{
+    background-color: #fff;
+    padding: 50px;
+    border-radius: 5px;
+}
+
+.pricing-item h1{
+    font-size: 45px;
+    font-weight: 500;
+}
+.pricing-item h5{
+    font-size: 21px;
+    font-weight: 300;
+}
+
+.pricing-item ul{
+    list-style: none;
+    margin-left: 0;
+    padding-left: 0;
+    margin-bottom: 50px;
+}
+.pricing-item ul li{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 21px;
+    color: #767676;
+    font-weight: 300;
+}
+.pricing-item ul li span{
+    color: #6b76d7;
+    font-weight: bold;
+    font-size: 21px;
+    display: inline-block;
+    width: 30px;
+}
+
+.pricing-button{
+
+}
+
+.pricing-button a{
+    border-color: #6b76d7;
+    border-width: 2px;
+    color: #6b76d7;
+    padding: 14px 170px;
+    font-size: 21px;
+}
+
+/*  Feedback Section  */
+
+.feedback-section{
+
+}
+.feedback-section h4{
+    font-size: 26px;
+    font-weight: 300;
+}
+
+.feedback-section h1{
+    font-size: 45px;
+    font-weight: 400;
+}
+.feedback-section span{
+    font-size: 110px;
+    color: rgba(204, 204, 204,.4);
+    margin-top: -50px;
+    display: inline-block;
+}
+
+.feedback-section p{
+    font-size: 21px;
+    font-weight: 300;
+}
+
+.f-user-img{
+    width: 250px;
+    margin: auto;
+    margin-top: 50px;
+}
+.f-user-img img{
+    width: 70px;
+    margin-right: 20px;
+}
+
+.f-user-details{
+    text-align: left;
+    position: relative;
+    top: 10px;
+}
+.f-user-details h5{
+    font-size: 21px;
+    font-weight: 500;
+}
+
+.f-user-details p{
+    position: relative;
+    top: -10px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+/*  About Section  */
+
+.about-item{
+    margin-top: 90px;
+}
+.about-item .card{}
+.about-item .card img{
+    width: 140px;
+    height: auto;
+    margin-top: -70px;
+    margin-left: 15px;
+}
+
+/* Contact Form */
+
+.contact-form .card{
+    padding: 40px;
+}
